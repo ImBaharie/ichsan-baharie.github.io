@@ -1,0 +1,69 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bios-screen {
+    width: 600px;
+    /* Lebar layar BIOS */
+    height: 400px;
+    /* Tinggi layar BIOS */
+    margin: 50px auto;
+    background-color: #000080;
+    border: 1px solid #fff;
+    padding: 20px;
+    overflow: auto;
+    /* Mengaktifkan scroll jika konten lebih panjang dari tinggi layar */
+}
+
+
+.bios-header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid #fff; */
+    font-size: 28px;
+}
+
+.bios-header p {
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+}
+
+.bios-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bios-body ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.bios-body ul li span {
+    color: #00ff00;
+    /* Green */
+    margin-right: 10px;
+}
+
+.bios-body ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.navigation-links {
+    position: fixed;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation-links a {
+    color: white;
+    /* Warna tulisan putih */
+    text-decoration: none;
+}
